@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 30px 30px;
+}
+
+.inputbox {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#inputType {
+    width: 85%;
+    border: 1px solid;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+/* .weather_body{ */
+    /* display: none; */
+    /* display: flex; */
+    /* text-align: center;
+    justify-content: center; */
+    /* flex-direction: column; */
+/* } */
+#inputType::placeholder {
+    color: black;
+}
+
+#inputType:hover {
+    background-color: aquamarine;
+}
+
+#searchbtn {
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#searchbtn:hover {
+    background-color: aqua;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+}
+
+#images {
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#degree {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#lightrain {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.climatecheck {
+    display: flex;
+    padding-top: 50px;
+    /* align-items: center; */
+}
+
+.humiditydeatils {
+    display: flex;
+    align-items: center;
+}
+
+.fa-droplet {
+    font-size: 50px;
+}
+
+.winddeatils {
+    display: flex;
+    align-items: center;
+}
+
+.fa-wind {
+    font-size: 50px;
+}
+
+#percentage1,
+#percentage2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#h1,
+#w1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+ #sorry{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+#not_found{
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#error{
+    width: 300px;
+}
+ #weather_body{
+    display: none;
+    flex-direction: column;
+} 
